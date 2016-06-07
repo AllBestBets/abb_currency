@@ -12,6 +12,7 @@ module AbbCurrency
         
         PAIRS.each do |pair|
           pair_yahoo = "#{pair[:from]}#{pair[:to]}"
+          # TODO fix if PAIRS.size = 1 json['query']['results']['rate'] return as object
           rate = json['query']['results']['rate'].select{|x| x['id'] == pair_yahoo}.first
           results[pair[:to]] = rate['Rate'].to_f
         end
