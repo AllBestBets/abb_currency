@@ -5,7 +5,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'abb_currency'
+gem 'abb_currency', github: 'AllBestBets/abb_currency'
 ```
 
 And then execute:
