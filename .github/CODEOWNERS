@@ -1,5 +1,5 @@
-*		
-/infra/*		@kam1kaze 
-cloudbuild./yaml	@kam1kaze
-*.sh		@kam1kaze
-pom.xml	      	@igor-komar
+*		@valnech	@vmanivchuk
+/infra/*		@kam1kaze @valnech	@vmanivchuk
+cloudbuild./yaml	@kam1kaze @valnech	@vmanivchuk
+*.sh		@kam1kaze @valnech	@vmanivchuk
+pom.xml	      	@igor-komar @valnech	@vmanivchuk
